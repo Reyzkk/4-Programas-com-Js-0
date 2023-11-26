@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>4 Programas com JS :0</title>
+    <link rel="shortcut icon" href="https://miro.medium.com/v2/resize:fit:342/1*rpYyNZvqfFej0FgWEW5p9Q.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!--Sistema de Bancario-->
+    <div class="container">
+        <div class="container-box">
+            <h1>Samsung</h1>
+            <img src="https://m.media-amazon.com/images/I/61YIejt-SNL._AC_SL400_.jpg" alt="">
+            <p>Valor do Produto R$2000</p>
+
+            <p id="dinheiro"></p>
+            <button onclick="comprar()">Comprar</button>
+        </div>
+    </div>
+    <!--Sistema de Bancario-->
+
+
+    <!--Calculadora-->
+
+    <div class="container-calculadora">
+
+        <div class="box-calculadora">
+            <p id="resultado">0</p>
+            <input id="numero1" placeholder="Digite o primeiro numero" type="number">
+            <input id="caracter" placeholder="Digite um caracter" type="text">
+            <input id="numero2" placeholder="Digite o segundo numero" type="number">
+
+            <button class="botao" onclick="clicar()">Calcular</button>
+        </div>
+    </div>
+    <!--Calculadora-->
+
+    <!--Organização Tabajara--->
+
+    <div class="container-colaborador">
+        <div class="box-colaborador">
+
+            <h1>Salario</h1>
+            <input id="salario" placeholder="Digite o valor" type="number">
+            <button onclick="guardarStatus()" class="botao-colaborador">Ver Status</button>
+
+            <p id="stats"></p>
+        </div>
+    </div>
+
+
+    <div class="container-triangulos">
+        <button class="botao-triangulo" onclick="ladosTriangulo()">Lados de um Triangulo (Clique aqui)  </button>
+    </div>
+
+
+    <!--Organização Tabajara--->
+    <script src="index.js"></script>
+</body>
+
+</html>

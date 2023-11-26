@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background: white;
+}
+
+.container-box {
+
+
+    color: rgb(13, 65, 255);
+    font-family: arial;
+    font-size: 20px;
+}
+
+button {
+    width: 150px;
+    background: rgb(26, 7, 231);
+    color: white;
+    border: 1px solid rgb(15, 78, 238);
+}
+
+.container-calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    background: rgb(16, 16, 16);
+    color: white;
+    font-family: arial;
+}
+
+input {
+    width: 150px;
+    height: 35px;
+    
+    border: 1px solid white;
+}
+.botao {
+    width: 100px;
+    height: 40px;
+    background: black;
+}
+
+
+.container-colaborador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 500px;
+}
+
+
+
+#salario {
+ border: 1px solid black;
+ width: 200px;   
+ height: 25px;
+}
+
+.botao-colaborador {
+    background: white;
+    color: black;
+    width: 100px;
+}
+
+.container-triangulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: rgb(0, 115, 255);
+}
+
+.botao-triangulo {
+    background: rgba(0, 0, 0, 0.379);
+    border: 2px solid white;
+    width: 500px;
+    font-family: arial;
+    height: 200px;
+}
